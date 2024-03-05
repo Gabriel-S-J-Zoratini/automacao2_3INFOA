@@ -7,3 +7,12 @@ A nota for menor que 6 ou se as presencas
 forem menor do que 75 e aprovado 
 caso contrário.
 '''
+
+nota = int(input("Digite a nota do aluno: "))
+frequencia = int(input("Digite a quantidade de presenças: "))
+
+if nota < 6 or frequencia < 75:
+    print("reprovado")
+else:
+    print("aprovado")
+     
