@@ -12,4 +12,4 @@ termina com 10 * na última linha
 '''
 
 for i in range(0, 10):
-    print(i, "*""*")
+    print("*"* i)
